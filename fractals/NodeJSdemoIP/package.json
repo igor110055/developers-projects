@@ -1,0 +1,22 @@
+{
+  "name": "node-binance",
+  "version": "1.0.0",
+  "description": "Node JS for API binance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Ivan Pazhgin <ivan.pazhgin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {    
+    "binance": "^2.0.31"
+  }
+}
